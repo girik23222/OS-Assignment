@@ -7,7 +7,7 @@ struct process_struct
     int pid;
     int at;
     int bt;
-    int ct, wt, tat, rt, start_time;
+    int ct, tat, rt, start_time;
 } ps[100];
 void swap(int *a, int *b)
 {
