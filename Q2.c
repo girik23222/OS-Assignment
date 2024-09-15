@@ -19,7 +19,7 @@ void binarySearch(int arr[], int left, int right, int target)
         printf("The target value found at index: %d\n",mid);
         exit(0);
     }
-    // Left array
+    // Right array
     else if (arr[mid] < target)
     {
         pid_t q = fork();
@@ -39,7 +39,7 @@ void binarySearch(int arr[], int left, int right, int target)
             exit(0);
         }
     }
-    // Right array
+    // Left array
     else
     {
         pid_t q = fork();
